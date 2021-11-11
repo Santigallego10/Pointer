@@ -1,6 +1,6 @@
 document.getElementById("player").addEventListener("click" , sumarPuntos);
 
-let puntos = 0;
+let puntos = 0; //prueba
 let tiempo = 30;
 let necesarios = 15;
 
