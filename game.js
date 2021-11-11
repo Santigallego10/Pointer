@@ -4,7 +4,7 @@ let puntos = 0; //prueba
 let tiempo = 30;
 let necesarios = 15;
 
-setInterval(restarTiempo,1000);
+let it = setInterval(restarTiempo,1000); 
 
 function sumarPuntos() {
     puntos++;
@@ -17,7 +17,9 @@ function sumarPuntos() {
         var puntajeFinal = tiempo*100;
         alert("Ganaste, tu puntuacion es de "+puntajeFinal);
         tiempo = 0;
-        location.reload();
+        puntos = 0;
+        necesarios = 20;
+        c
     }
 }
 
